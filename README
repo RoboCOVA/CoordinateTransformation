@@ -1,12 +1,7 @@
-This routine  estimates the transformation matrix between
-3D point cloud in one frame with respect the another coordinate frame
+This routine  estimates the transformation matrix between 3D point cloud in one frame with respect the another coordinate frame
 .
-this algorithm computes the transformation matrix between two point clouds
-for example the transformation matrix between model coordinates and robot
-base frame. This may help in path and trajectory planning, it can also be used
-in registration of point cloud in different frame into the frame especially
-we can use it in structure from motion in vast scale.
-
- Specifically this function computes the transformation matrix between robot and
- model coordinates by using pointing laser mounted on the robot.
+The algorithm computes the transformation matrix between two point clouds for example the transformation matrix between model coordinates and robot
+base frame. This may help in path and trajectory planning, it can also be used in registration of point cloud in different frame into the frame especially
+we can use it in structure from motion in vast scale. 
+ Specifically this function computes the transformation matrix between robot and  model coordinates by using pointing laser mounted on the robot.
 
